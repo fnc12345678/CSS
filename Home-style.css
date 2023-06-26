@@ -1,4 +1,7 @@
-
+body {
+    min-height: 600vh;
+}
+   
 
 #news-slider {
     margin-top: 80px;
