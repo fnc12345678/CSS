@@ -198,7 +198,6 @@ body {
 
 .header {
     height: 60vh;
-    background-image: linear-gradient(to right bottom, rgba(76, 216, 255, 0.8), rgba(30, 108, 217, 0.8)), url('https://i.postimg.cc/5tqsQjLf/study-7217599-1280.jpg');
     background-size: cover;
     background-position: top;
     position: relative;
