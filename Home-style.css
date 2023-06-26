@@ -202,7 +202,7 @@ body {
     background-size: cover;
     background-position: top;
     position: relative;
-    clip-path: polygon(0 0, 10% 0, 100% 9vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .brand-box {
@@ -243,3 +243,4 @@ body {
     font-weight: 700;
     letter-spacing: 7.4px;
 }
+
