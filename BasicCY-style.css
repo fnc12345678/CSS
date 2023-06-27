@@ -178,7 +178,7 @@ ul:not(nav) li:hover:not(nav) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px;
+  padding: 5px;
   border-radius: 6px;
   background-color: #007AFF;
   color: #FFFFFF;
