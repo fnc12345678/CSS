@@ -178,16 +178,17 @@ ul:not(nav) li:hover:not(nav) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 3px;
   border-radius: 6px;
   background-color: #007AFF;
   color: #FFFFFF;
   border: none;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
 }
+
 
 .copy-button:focus {
   outline: none;
