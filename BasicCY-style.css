@@ -174,17 +174,36 @@ ul:not(nav) li:hover:not(nav) {
     border: 2px solid rgb(9, 255, 128);
 }
 
-
-#copyButton {
+.copy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 6px;
   background-color: #007AFF;
-  border: none;
   color: #FFFFFF;
-  padding: 10px 20px;
+  border: none;
   font-size: 16px;
-  border-radius: 5px;
-}
-
-#copyButton:hover {
-  background-color: #0056b3;
+  font-weight: bold;
+  text-transform: uppercase;
   cursor: pointer;
 }
+
+.copy-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('path/to/copy-icon.png');
+  background-size: cover;
+  margin-right: 6px;
+}
+
+.copy-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.5);
+}
+
+.copy-button:hover {
+  background-color: #0055FF;
+}
+
