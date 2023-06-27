@@ -1,4 +1,7 @@
-
+body {
+      min-height: 950px;
+      
+}
  .content {
 background-color: #FFF;
 border-radius: 10px;
