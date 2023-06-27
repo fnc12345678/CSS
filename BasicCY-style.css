@@ -178,12 +178,11 @@ ul:not(nav) li:hover:not(nav) {
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 8px; /* Aumentato da 4px a 8px /
+padding: 8px;
 border-radius: 7px;
 background-color: #007AFF;
 color: #FFFFFF;
 border: none;
-font-size: 14px; / Aumentato da 12px a 14px */
 font-weight: bold;
 text-transform: uppercase;
 cursor: pointer;
