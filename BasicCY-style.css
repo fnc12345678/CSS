@@ -206,13 +206,18 @@ ul:not(nav) li:hover:not(nav) {
   align-items: auto;
 }
 
-.button-text {
-  margin-right: 10px;
-}
+.button-container {
+  display: flex;
+  align-items: center;
 }
 
 .copy-button {
-  margin-left: 13px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.button-text {
+  margin-bottom: 5px;
 }
 
 
