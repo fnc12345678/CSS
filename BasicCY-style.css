@@ -201,5 +201,13 @@ ul:not(nav) li:hover:not(nav) {
 .copy-button i {
   margin-right: 6px;
 }
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-text {
+  margin-right: 10px;
+}
 
 
