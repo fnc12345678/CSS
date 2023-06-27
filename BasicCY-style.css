@@ -197,7 +197,7 @@ ul:not(nav) li:hover:not(nav) {
 }
 
 .copy {
-  margin: 40px;
+  margin: 10px;
   box-sizing: border-box;
   width: var(--button-diameter);
   height: var(--button-diameter);
