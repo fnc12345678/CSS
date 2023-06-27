@@ -174,21 +174,19 @@ ul:not(nav) li:hover:not(nav) {
     border: 2px solid rgb(9, 255, 128);
 }
 
-.copy-button {
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 10px; 
-border-radius: 7px;
-background-color: #007AFF;
-color: #FFFFFF;
-border: none;
-font-size: 16px; / Aumentato da 12px a 16px /
-font-weight: bold;
-text-transform: uppercase;
-cursor: pointer;
-width: 120px; / Aggiunto per aumentare la larghezza /
-height: 40px; / Aggiunto per aumentare l'altezza */
+ .copy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #007AFF;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 
