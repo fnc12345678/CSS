@@ -2,6 +2,7 @@ body {
 min-height: 450px;
 
 }
+
 .content {
 background-color: #FFF;
 border-radius: 10px;
@@ -14,7 +15,7 @@ ul li:hover {
     color: white;
     background-color: blue;
     border: 2px solid rgb(9, 255, 128);
-  }
+}
 
 
 .copy {
