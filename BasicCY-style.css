@@ -208,14 +208,6 @@ ul:not(nav) li:hover:not(nav) {
   align-items: auto;
 }
 
-.button-container {
-  display: flex;
-  align-items: center;
-}
 
-
-.button-text {
-  margin-bottom: 5px;
-}
 
 
