@@ -174,11 +174,12 @@ ul:not(nav) li:hover:not(nav) {
     border: 2px solid rgb(9, 255, 128);
 }
 
- .copy-button {
+
+.copy-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 8px;
   border-radius: 6px;
   background-color: #007AFF;
   color: #FFFFFF;
