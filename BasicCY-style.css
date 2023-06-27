@@ -161,7 +161,7 @@ h3 {
 font-size: 18px;
 margin-bottom: 5px;
 }
-.button-container {
+.button-container1 {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -178,8 +178,8 @@ ul:not(nav) li:hover:not(nav) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3px;
-  border-radius: 6px;
+  padding: 4px;
+  border-radius: 7px;
   background-color: #007AFF;
   color: #FFFFFF;
   border: none;
