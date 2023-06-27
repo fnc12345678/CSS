@@ -212,10 +212,6 @@ ul:not(nav) li:hover:not(nav) {
   align-items: center;
 }
 
-.copy-button {
-  margin-right: 10px;
-  margin-top: -5px;
-}
 
 .button-text {
   margin-bottom: 5px;
