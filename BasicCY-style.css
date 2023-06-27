@@ -189,15 +189,6 @@ ul:not(nav) li:hover:not(nav) {
   cursor: pointer;
 }
 
-.copy-icon {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url('path/to/copy-icon.png');
-  background-size: cover;
-  margin-right: 6px;
-}
-
 .copy-button:focus {
   outline: none;
   box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.5);
@@ -206,4 +197,9 @@ ul:not(nav) li:hover:not(nav) {
 .copy-button:hover {
   background-color: #0055FF;
 }
+
+.copy-button i {
+  margin-right: 6px;
+}
+
 
