@@ -207,7 +207,11 @@ ul:not(nav) li:hover:not(nav) {
 }
 
 .button-text {
-  margin-right: 14px;
+  margin-right: 10px;
+}
+
+.copy-button {
+  margin-left: 20px;
 }
 
 
