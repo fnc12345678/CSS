@@ -168,7 +168,7 @@ align-items: center;
 height: AUTO; /* Imposta l'altezza del container al 100% della viewport, per centrare verticalmente */
 }
 
-ul:not(header) li:hover:not(header) {
+ul:not(nav) li:hover:not(nav) {
     color: white;
     background-color: blue;
     border: 2px solid rgb(9, 255, 128);
