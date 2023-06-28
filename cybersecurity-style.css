@@ -39,52 +39,46 @@ font-weight: bold;
 .open .toggle-arrow {
 transform: rotate(90deg);
 }
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
 .lesson {
-  flex: 0 0 calc(33.33% - 20px);
-  margin: 4px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
+margin: 4px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: center;
+display: none;
+margin-top: 12px;
 
+}
+.lesson.open {
+display: block;
+}
 .lesson h3 {
-  margin-top: 0;
+margin-top: 0;
 }
-
 .lesson img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  margin-bottom: 10px;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+object-position: center;
+margin-bottom: 10px;
 }
-
 .lesson-link {
-  color: black;
-  text-decoration: none;
+color: black;
+text-decoration: none;
 }
-
 .lesson:hover,
 .lesson:hover .lesson-link {
-  color: white;
-  font-size: 20px;
+color: white;
+font-size: 20px;
 }
-
 .lesson:hover {
-  background: rgb(255, 0, 0);
-  background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 255, 27, 1) 43%, rgba(13, 22, 255, 1) 97%);
-  font-size: 16px;
+background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,255,27,1) 43%, rgba(13,22,255,1) 97%);
+font-size: 16px;
 }
-
 .search-input {
       width: 200px;
       padding: 8px 12px;
