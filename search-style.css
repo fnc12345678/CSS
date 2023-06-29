@@ -18,6 +18,11 @@ top: 50%;
   border-radius: 10px;
   cursor: pointer;
 }
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .result {
   margin: 4px;
