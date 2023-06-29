@@ -28,7 +28,6 @@ main {
 }
 
 .category-divider h2 {
-  top: -10px; /* Regola questa linea per spostare il testo sopra la linea */
   margin: 0;
   order: 1;
 }
