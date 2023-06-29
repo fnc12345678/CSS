@@ -6,10 +6,11 @@ main {
   padding: 20px;
 }
 .open {
-      display: block;
-  }
+        display: block;
+}
+    
 .lesson {
-    display: none;
+        display: none;
 }
 
 .lesson-container {
@@ -17,6 +18,7 @@ main {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+
 .category-divider {
   display: flex;
   flex-direction: column;
@@ -28,8 +30,9 @@ main {
 }
 
 .category-divider h2 {
+  position: relative;
+  top: -4px;
   margin: 0;
-  order: 1;
 }
 
 .category-divider::before {
