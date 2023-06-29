@@ -5,7 +5,19 @@ body {
 main {
   padding: 20px;
 }
+.open {
+        display: block;
+      }
+    
+      .lesson {
+        display: none;
+      }
 
+      .lesson-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 .category-divider {
   display: flex;
   flex-direction: column;
