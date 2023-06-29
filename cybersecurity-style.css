@@ -1,4 +1,4 @@
-body {
+ody {
   min-height: 400vh;
 }
 
@@ -44,6 +44,12 @@ main {
   transform: rotate(90deg);
 }
 
+.lesson-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .lesson {
   margin: 4px;
   padding: 20px;
@@ -53,13 +59,6 @@ main {
   width: 300px;
   text-align: center;
   margin-top: 12px;
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.lesson.open {
-  display: block;
 }
 
 .lesson h3 {
