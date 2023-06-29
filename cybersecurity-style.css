@@ -28,6 +28,7 @@ main {
 }
 
 .category-divider h2 {
+  margin-top: 5px;
   margin: 0;
   order: 1;
 }
